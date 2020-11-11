@@ -3,7 +3,8 @@
 /**
  * MercadoPago cURL RestClient
  */
-$GLOBALS["LIB_LOCATION"] = dirname(__FILE__);
+
+$GLOBALS["LIB_LOCATION"] = Mage::getBaseDir() . '/lib/MercadoPago/Lib';
 
 class MercadoPago_Lib_RestClient {
 
@@ -13,7 +14,6 @@ class MercadoPago_Lib_RestClient {
      *Product Id, identifier used to designate the product, device and version
      */
     const PRODUCT_ID = "BC32C7VTRPP001U8NHNG";
-    const INTEGRATOR_ID = "dev_e8dfeea3b23111ea8ff80242ac130004";
 
     private static function get_connect($uri, $method, $content_type, $extra_params = array()) {
         if (!extension_loaded ("curl")) {
@@ -32,7 +32,6 @@ class MercadoPago_Lib_RestClient {
         //set x_product_id
         if($method == 'POST'){
           $header_opt[] = "x-product-id: " . self::PRODUCT_ID;
-          $header_opt[] = "x-integrator-id: " . self::INTEGRATOR_ID;
         }      
       
         if (count($extra_params) > 0) {

@@ -3,7 +3,7 @@
 "Mercado Pago - Configuration", "Mercado Pago - Configuración"
 "Credit Card - Mercado Pago","Tarjetas de crédito - Mercado Pago"
 
-"Mercado Pago Custom - Credit Card","Mercado Pago Custom - Tarjeta de Crédito"
+"Mercado Pago Transparent - Credit Card","Mercado Pago Transparente - Tarjeta de Crédito"
 "Payment Title","Título"
 "Category of your store","Categoria de la tienda"
 "Choose the status of approved orders","Elija el estado de los pedidos para pagos Aprobados"
@@ -17,7 +17,7 @@
 "Checkout Position","Posición en el Checkout"
 "To manage the status available go to System > Order Statuses","Para gerenciar los estados disponibles vaya a 'System > Order Statuses'"
 
-"Mercado Pago Custom - Ticket","Mercado Pago Custom - Tickets de pago"
+"Mercado Pago Transparent - Ticket","Mercado Pago Transparente - Tickets de pago"
 
 "Mercado Pago Standard - Credit Card, Ticket and Account Money","Mercado Pago Standard - Tarjetas, Tickets y Dinero en Cuenta"
 "Country","País"
@@ -29,7 +29,7 @@
 "Height Checkout Iframe","Alto de la zona del Checkout (Iframe)"
 "Auto-redirect the buyer when finishing the payment.","Auto-Redireccionar al comprador al finalizar el pago."
 "Select payment methods not accepted","Seleccione los medios de pago no aceptados"
-"For the operation of the Checkout Custom Ticket is necessary to configure the Credentials 'CLIENT_ID' and 'CLIENT_SECRET' in 'Mercado Pago - Configuration'","Para el funcionamento del Checkout Custom - Tickets de pago, es necesario configurar las Credenciales 'CLIENT_ID' y 'CLIENT_SECRET' en 'Mercado Pago - Configuración'"
+"For the operation of the Checkout Transparent Ticket is necessary to configure the Credentials 'CLIENT_ID' and 'CLIENT_SECRET' in 'Mercado Pago - Configuration'","Para el funcionamento del Checkout Transparente - Tickets de pago, es necesario configurar las Credenciales 'CLIENT_ID' y 'CLIENT_SECRET' en 'Mercado Pago - Configuración'"
 "For the operation of the Checkout Standard is necessary to configure the Credentials 'CLIENT_ID' and 'CLIENT_SECRET' in 'Mercado Pago - Configuration'","Para el funcionamento del Checkout Standard, es necesario configurar las Credenciales 'CLIENT_ID' y 'CLIENT_SECRET' en 'Mercado Pago - Configuración'"
 
 "Card Number","Número de Tarjeta"
@@ -48,7 +48,6 @@
 "CVV is invalid.","Código de Seguridad inválido."
 "Card Holder Name is invalid.","Nombre de titular de tarjeta inválido."
 "Document Number is invalid.","Número de Documento inválido."
-"Document Type is invalid.","Tipo de Documento inválido."
 "Year is invalid.","Año inválido."
 "Month is invalid.","Mes inválido."
 "Please validate your data.","Por favor, valide los datos"
@@ -71,9 +70,6 @@
 "Generate the ticket and pay it wherever you want.","Genere el ticket de pago y pague"
 "Will be approved within 2 business days.","Será aprobado en hasta 2 días hábiles"
 
-
-"Thank you for your purchase!","Gracias por su compra!"
-"Your order %s has been successfully generated.","Su pedido con el numero %s fué generado con éxito."
 "Done, your payment was accredited!","¡Listo, se acreditó tu pago!"
 "We are processing the payment.","Estamos procesando el pago."
 "In less than 2 business days we will tell you by e-mail if it is accredited or if we need more information.","Estamos procesando el pago. En menos de 2 días hábiles te avisaremos por e-mail si se acreditó o si necesitamos más información."
@@ -119,14 +115,6 @@
 "<br/> Payment id: %s","<br/> Número de Pago: %s"
 "<br/> Status: %s","<br/> Estado: %s"
 "<br/> Status Detail: %s","<br/> Detalle del Estado: %s"
-"Order # %s in store %s","Orden # %s realizada en %s"
-
-"$", "$"
-"Choice", "Elige"
-"Default issuer", "Cualquier otro banco"
-
-"Get your public_key in the following address: https://www.mercadopago.com/mlb/account/credentials","Obtén tu public_key en la siguiente dirección: https://www.mercadopago.com/mco/account/credentials"
-"Choose the status when payment was chargeback", "Elija el estado de los pedidos para pagos con status Chargeback"
 
 "It is a requirement that you have a SSL certificate, and the payment form to be provided under an HTTPS page.
                                         During the sandbox mode tests, you can operate over HTTP,
@@ -155,6 +143,12 @@
 "Payment Detail: cc_rejected_bad_filled_other","Detalle del Pago: Tarjeta de crédito rechazada por error en formulario."
 "Payment Detail: cc_rejected_other_reason","Detalle del Pago: Rechazo general"
 "Payment Detail: cc_rejected_bad_filled_date","Detalle del Pago: Tarjeta de crédito rechazada por fecha de expiración."
+"Use Tax/VAT number","Utilizar el campo Tax/VAT"
+"Automatically populates the document number field with Tax/VAT","Completar automáticamente el número de documento con el campo Tax/VAT"
+"Select the Street Address Number to use for Address","Seleccione el Street Address Number para usar en la dirrección"
+"Select the Street Address Number to use for Address Number","Seleccione el Street Address Number para usar en el número de dirrección"
+
+"Information requested in accordance with the rules of Circular No. 3.461/09, 3.598/12 and 3.656/13 of the Banco Central do Brasil.","Información solicitada de acuerdo con las normas de las circulares Nro. 3.461/09, 3.598/12 e 3.656/13 del Banco Central de Brasil."
 
 "Select","Seleccione"
 "Name","Nombre"
